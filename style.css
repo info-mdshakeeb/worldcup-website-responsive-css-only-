@@ -71,10 +71,9 @@ main {
 }
 #active {
   background-color: #dd0000;
-}
-#active p {
   color: #e8e8e8;
 }
+
 .matches-nav {
   width: 312px;
   height: 312px;
@@ -86,6 +85,7 @@ main {
   width: 252px;
   height: 252px;
 }
+
 .nav-item {
   width: 100%;
   height: 64px;
@@ -95,13 +95,7 @@ main {
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
-.nav-item p {
-  text-align: center;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  color: #161616;
-}
+
 .nav-item a {
   text-decoration: none;
   font-weight: 500;
@@ -114,6 +108,7 @@ main {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+  border: 1px solid rgb(103, 107, 118);
 }
 
 .all-match {
